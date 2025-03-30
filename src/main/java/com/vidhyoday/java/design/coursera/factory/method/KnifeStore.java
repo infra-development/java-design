@@ -1,4 +1,4 @@
-package com.vidhyoday.java.desgin.factory.method;
+package com.vidhyoday.java.design.coursera.factory.method;
 
 abstract public class KnifeStore {
 

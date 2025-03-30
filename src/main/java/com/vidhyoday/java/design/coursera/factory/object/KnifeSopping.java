@@ -1,4 +1,4 @@
-package com.vidhyoday.java.desgin.factory.object;
+package com.vidhyoday.java.design.coursera.factory.object;
 
 public class KnifeSopping {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.vidhyoday.java.desgin.factory.method;
+package com.vidhyoday.java.design.coursera.factory.method;
 
 public class MainKnifeShopping {
     public static void main(String[] args) {

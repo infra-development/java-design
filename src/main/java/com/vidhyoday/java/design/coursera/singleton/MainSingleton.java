@@ -1,4 +1,4 @@
-package com.vidhyoday.java.desgin.singleton;
+package com.vidhyoday.java.design.coursera.singleton;
 
 public class MainSingleton {
     public static void main(String[] args) {
