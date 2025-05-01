@@ -17,6 +17,7 @@ public class WeatherData implements Subject {
         observers.add(o);
     }
 
+
     public float getTemperature() {
         return temperature;
     }

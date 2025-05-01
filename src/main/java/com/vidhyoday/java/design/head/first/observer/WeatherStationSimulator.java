@@ -10,6 +10,8 @@ public class WeatherStationSimulator {
         weatherData.setMeasurements(80, 65, 30.4f);
         weatherData.setMeasurements(90, 75, 40.4f);
         weatherData.setMeasurements(100, 95, 60.4f);
+        weatherData.removeObserver(currentDisplay);
+        weatherData.removeObserver(statisticsDisplay);
     }
 
 }
