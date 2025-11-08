@@ -10,18 +10,18 @@ This README explains every class and method, the reasonings behind design choice
 
 ## Table of Contents
 
-1. Purpose & Motivation
-2. Quick summary of how it works
-3. Class-by-class walkthrough (detailed)
-4. Run flow and textual sequence diagram
-5. Why this pattern is useful — benefits
-6. Important details & things to remember (cheat-sheet)
-7. Pitfalls, bugs, and concurrency considerations
-8. Complexity and performance
-9. Testing suggestions
-10. Potential improvements and extensions
-11. Sample output
-12. FAQ: common questions
+[1. Purpose & Motivation](#1-purpose--motivation)  
+[2. Quick summary of how it works](#2-quick-summary-of-how-it-works)  
+[3. Class-by-class walkthrough (detailed)](#3-class-by-class-walkthrough-detailed)  
+[4. Run flow and textual sequence diagram](#4-run-flow-and-textual-sequence-diagram)  
+[5. Why this pattern is useful — benefits](#5-why-this-pattern-is-useful--benefits)  
+[6. Important details & things to remember (cheat-sheet)](#6-important-details--things-to-remember-cheat-sheet)  
+[7. Pitfalls, bugs, and concurrency considerations](#7-pitfalls-bugs-and-concurrency-considerations)  
+[8. Complexity and performance](#8-complexity-and-performance)  
+[9. Testing suggestions](#9-testing-suggestions)  
+[10. Potential improvements and extensions](#10-potential-improvements-and-extensions)  
+[11. Sample output](#11-sample-output)  
+[12. FAQ: common questions](#12-faq-common-questions)
 
 ---
 
