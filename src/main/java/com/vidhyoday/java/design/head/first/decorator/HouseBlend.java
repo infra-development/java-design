@@ -7,6 +7,7 @@ public class HouseBlend extends Beverage {
     }
 
     public double cost() {
-        return 0.89;
+        // Base prices for different sizes
+        return priceBySize(0.89, 1.09, 1.29);
     }
 }

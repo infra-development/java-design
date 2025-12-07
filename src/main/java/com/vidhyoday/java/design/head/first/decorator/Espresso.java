@@ -7,6 +7,7 @@ public class Espresso extends Beverage {
     }
 
     public double cost() {
-        return 1.99;
+        // Prices: TALL, GRANDE, VENTI
+        return priceBySize(1.99, 2.49, 2.99);
     }
 }

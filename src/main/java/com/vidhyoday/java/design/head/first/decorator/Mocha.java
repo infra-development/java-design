@@ -11,6 +11,7 @@ public class Mocha extends CondimentDecorator {
     }
 
     public double cost() {
-        return beverage.cost() + 0.20;
+        // Condiment prices vary by size. Add to wrapped beverage cost.
+        return beverage.cost() + priceBySize(0.20, 0.25, 0.30);
     }
 }
