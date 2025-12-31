@@ -1,0 +1,55 @@
+@startuml
+top to bottom direction
+skinparam linetype ortho
+skinparam ranksep 90
+skinparam nodesep 70
+
+' Interfaces (force TOP)
+together {
+  interface AbstractFactory
+  interface AbstractProductA
+  interface AbstractProductB
+}
+
+' Factories
+together {
+  class ConcreteFactory1
+  class ConcreteFactory2
+}
+
+' Products
+together {
+  class ProductA1
+  class ProductB1
+  class ProductA2
+  class ProductB2
+}
+
+' ---- FORCE RANKING (CRITICAL) ----
+ConcreteFactory1 -[hidden]-> AbstractFactory
+ConcreteFactory2 -[hidden]-> AbstractFactory
+
+ProductA1 -[hidden]-> AbstractProductA
+ProductA2 -[hidden]-> AbstractProductA
+
+ProductB1 -[hidden]-> AbstractProductB
+ProductB2 -[hidden]-> AbstractProductB
+
+' ---- IS-A ----
+ConcreteFactory1 ..|> AbstractFactory
+ConcreteFactory2 ..|> AbstractFactory
+
+ProductA1 ..|> AbstractProductA
+ProductA2 ..|> AbstractProductA
+
+ProductB1 ..|> AbstractProductB
+ProductB2 ..|> AbstractProductB
+
+' ---- HAS-A ----
+ConcreteFactory1 --> ProductA1
+ConcreteFactory1 --> ProductB1
+
+ConcreteFactory2 --> ProductA2
+ConcreteFactory2 --> ProductB2
+
+@enduml
