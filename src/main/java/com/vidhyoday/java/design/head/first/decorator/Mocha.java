@@ -7,11 +7,19 @@ public class Mocha extends CondimentDecorator {
     }
 
     public String getDescription() {
-        return beverage.getDescription() + ", Mocha";
+        if(beverage == null) {
+            return "Mocha";
+        } else {
+            return beverage.getDescription() + ", Mocha";
+        }
     }
 
     public double cost() {
         // Condiment prices vary by size. Add to wrapped beverage cost.
-        return beverage.cost() + priceBySize(0.20, 0.25, 0.30);
+        if (beverage == null) {
+            return priceBySize(0.20, 0.25, 0.30);
+        } else {
+            return beverage.cost() + priceBySize(0.20, 0.25, 0.30);
+        }
     }
 }
